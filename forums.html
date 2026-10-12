@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forums</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>Rosebank Forum</h1>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="forums.html">Forums</a></li>
+            <li><a href="notice.html">Notice Board</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    <button id="notifyBtn">🔔</button>
+    <button id="darkModeBtn">🌙</button>
+    </nav>
+</header>
+
+<section class="forums">
+    <h2>Discussion Forums</h2>
+
+<input
+    type="text"
+    id="searchInput"
+    placeholder="Search forums..."
+>
+<div class="create-post">
+
+    <textarea
+        id="postInput"
+        placeholder="Start a discussion..."
+    ></textarea>
+
+    <button id="postBtn">
+        Create Post
+    </button>
+
+</div>
+
+<div id="posts"></div>
+
+    <div class="forum-grid">
+
+        <div class="forum-card">
+            <h3>Programming</h3>
+            <p>Discuss coding, software and projects.</p>
+            <button>Open Forum</button>
+        </div>
+
+        <div class="forum-card">
+            <h3>Business</h3>
+            <p>Assignments and entrepreneurship discussions.</p>
+            <button>Open Forum</button>
+        </div>
+
+        <div class="forum-card">
+            <h3>Campus Life</h3>
+            <p>Talk about student experiences and events.</p>
+            <button>Open Forum</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Rosebank Student Forum</p>
+</footer>
+
+</body>
+</html>
